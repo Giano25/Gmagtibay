@@ -1,0 +1,10 @@
+number = []
+for i in range (10):
+    num = float(input("Input a value:"))
+    number.append(num)
+
+result = number[0]
+for num in number[1:]:
+    result -= num
+
+print(f"result: {result}")
