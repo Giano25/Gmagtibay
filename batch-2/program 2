@@ -1,0 +1,7 @@
+# get the number from user
+num1 = int(input("enter number 1:"))
+num2 = int(input("enter number 2:"))
+
+# Compare and print equal if value is same
+if num1 != num2:
+    print("Not Equal")
