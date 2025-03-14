@@ -1,0 +1,6 @@
+# Get the number from User input 
+num1 = float(input ("enter number:"))
+num2 = float(input ("enter number:"))
+
+# compare and print smaller number
+print("the smaller number is", num1 if num1 < num2 else num2) 
