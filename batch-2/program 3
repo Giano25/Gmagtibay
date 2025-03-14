@@ -1,0 +1,6 @@
+# ASk user input number
+num1 = float(input("enter number:"))
+num2 = float(input("enter number:"))
+
+#subtract the two numbers
+print(num1 - num2)
