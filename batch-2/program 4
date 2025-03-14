@@ -1,0 +1,6 @@
+# Ask user input number
+num1 = int(input("enter number:"))
+num2 = int(input("enter number:"))
+
+#divide the two number
+print(num1//num2)
