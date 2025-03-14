@@ -1,0 +1,4 @@
+print("Numbers (0-100) not ending with 0/5:")
+for num in range(101):
+    if num % 10 not in {0, 5}:
+        print(num, end=" ")
